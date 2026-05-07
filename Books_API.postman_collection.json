@@ -1,0 +1,149 @@
+{
+  "info": {
+    "_postman_id": "3b0a1a6f-c2a3-4772-9033-8f9c4308160e",
+    "name": "Books_API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "54393664",
+    "_collection_link": "https://go.postman.co/collection/54393664-3b0a1a6f-c2a3-4772-9033-8f9c4308160e?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "https://localhost:7271/api/Books",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://localhost:7271/api/Books/4",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7271",
+          "path": [
+            "api",
+            "Books",
+            "4"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "https://localhost:7271/api/Books/1",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{ \r\n    \r\n  \"title\": \"Polladhavan\",\r\n  \"author\": \"Vetrimaaran\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://localhost:7271/api/Books/1",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7271",
+          "path": [
+            "api",
+            "Books",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "https://localhost:7271/api/Books/3",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n        \r\n        \"title\": \"Vadachennai\",\r\n        \"author\": \"Vetrimaaran\"\r\n    }",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://localhost:7271/api/Books/3",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7271",
+          "path": [
+            "api",
+            "Books",
+            "3"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "https://localhost:7271/api/Books/3",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "https://localhost:7271/api/Books/3",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7271",
+          "path": [
+            "api",
+            "Books",
+            "3"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "https://localhost:7271/api/Books/4",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://localhost:7271/api/Books/4",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7271",
+          "path": [
+            "api",
+            "Books",
+            "4"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
